@@ -4,7 +4,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 
   <modelVersion>4.0.0</modelVersion>
  
-  <groupId>main.java.com.calci.app</groupId>
+  <groupId>Main.java.com.calci.app</groupId>
   <artifactId>calci-app</artifactId>
   <version>1.0.0</version>
 

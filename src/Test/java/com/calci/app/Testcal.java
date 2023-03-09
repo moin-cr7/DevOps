@@ -1,7 +1,7 @@
-package test.java.com.calci.app;
+package Test.java.com.calci.app;
 import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.Test;
-import main.java.com.calci.app.cal;
+import Main.java.com.calci.app.cal;
  public class Testcal{
 
 	@Test

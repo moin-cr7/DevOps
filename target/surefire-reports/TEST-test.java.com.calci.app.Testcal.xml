@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="test.java.com.calci.app.Testcal" time="0.095" tests="5" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="Test.java.com.calci.app.Testcal" time="0.09" tests="5" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -7,7 +7,7 @@
     <property name="java.specification.version" value="1.8"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.class.path" value="E:\projects and programms\Devops\Calculator\target\test-classes;E:\projects and programms\Devops\Calculator\target\classes;C:\Users\MOIN\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.8.2\junit-jupiter-api-5.8.2.jar;C:\Users\MOIN\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\MOIN\.m2\repository\org\junit\platform\junit-platform-commons\1.8.2\junit-platform-commons-1.8.2.jar;C:\Users\MOIN\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;"/>
+    <property name="java.class.path" value="E:\projects and programms\Devops\Calculator\calculatorwithtestcases\target\test-classes;E:\projects and programms\Devops\Calculator\calculatorwithtestcases\target\classes;C:\Users\MOIN\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.8.2\junit-jupiter-api-5.8.2.jar;C:\Users\MOIN\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\MOIN\.m2\repository\org\junit\platform\junit-platform-commons\1.8.2\junit-platform-commons-1.8.2.jar;C:\Users\MOIN\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
@@ -18,20 +18,20 @@
     <property name="user.country" value="IN"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_162\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\MOIN\AppData\Local\Temp\surefire6594078159216548818\surefirebooter3836211040241255085.jar C:\Users\MOIN\AppData\Local\Temp\surefire6594078159216548818 2023-02-21T12-17-43_616-jvmRun1 surefire8937395151291343952tmp surefire_03478077593816208189tmp"/>
-    <property name="surefire.test.class.path" value="E:\projects and programms\Devops\Calculator\target\test-classes;E:\projects and programms\Devops\Calculator\target\classes;C:\Users\MOIN\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.8.2\junit-jupiter-api-5.8.2.jar;C:\Users\MOIN\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\MOIN\.m2\repository\org\junit\platform\junit-platform-commons\1.8.2\junit-platform-commons-1.8.2.jar;C:\Users\MOIN\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;"/>
+    <property name="sun.java.command" value="C:\Users\MOIN\AppData\Local\Temp\surefire6208171645193782412\surefirebooter5333837978308445897.jar C:\Users\MOIN\AppData\Local\Temp\surefire6208171645193782412 2023-03-03T21-05-59_975-jvmRun1 surefire7512759399100687637tmp surefire_07260174441464415474tmp"/>
+    <property name="surefire.test.class.path" value="E:\projects and programms\Devops\Calculator\calculatorwithtestcases\target\test-classes;E:\projects and programms\Devops\Calculator\calculatorwithtestcases\target\classes;C:\Users\MOIN\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.8.2\junit-jupiter-api-5.8.2.jar;C:\Users\MOIN\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\MOIN\.m2\repository\org\junit\platform\junit-platform-commons\1.8.2\junit-platform-commons-1.8.2.jar;C:\Users\MOIN\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\MOIN"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_162\jre"/>
-    <property name="basedir" value="E:\projects and programms\Devops\Calculator"/>
+    <property name="basedir" value="E:\projects and programms\Devops\Calculator\calculatorwithtestcases"/>
     <property name="file.separator" value="\"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\MOIN\AppData\Local\Temp\surefire6594078159216548818\surefirebooter3836211040241255085.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\MOIN\AppData\Local\Temp\surefire6208171645193782412\surefirebooter5333837978308445897.jar"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_162\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_162\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_162\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_162\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_162\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_162\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_162\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_162\jre\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -47,7 +47,7 @@
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="java.io.tmpdir" value="C:\Users\MOIN\AppData\Local\Temp\"/>
     <property name="java.version" value="1.8.0_162"/>
-    <property name="user.dir" value="E:\projects and programms\Devops\Calculator"/>
+    <property name="user.dir" value="E:\projects and programms\Devops\Calculator\calculatorwithtestcases"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
@@ -60,9 +60,9 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="testAdd" classname="test.java.com.calci.app.Testcal" time="0.048"/>
-  <testcase name="testDiv" classname="test.java.com.calci.app.Testcal" time="0.003"/>
-  <testcase name="testMod" classname="test.java.com.calci.app.Testcal" time="0.004"/>
-  <testcase name="testMul" classname="test.java.com.calci.app.Testcal" time="0.001"/>
-  <testcase name="testSub" classname="test.java.com.calci.app.Testcal" time="0.001"/>
+  <testcase name="testAdd" classname="Test.java.com.calci.app.Testcal" time="0.046"/>
+  <testcase name="testDiv" classname="Test.java.com.calci.app.Testcal" time="0.002"/>
+  <testcase name="testMod" classname="Test.java.com.calci.app.Testcal" time="0.001"/>
+  <testcase name="testMul" classname="Test.java.com.calci.app.Testcal" time="0.002"/>
+  <testcase name="testSub" classname="Test.java.com.calci.app.Testcal" time="0.001"/>
 </testsuite>
