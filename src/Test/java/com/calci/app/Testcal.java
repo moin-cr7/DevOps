@@ -8,7 +8,7 @@ import Main.java.com.calci.app.cal;
 	void testAdd() {
 		
 		assertEquals(40, cal.add(10, 30));
-		assertEquals(60, cal.add(30, 30));
+		assertEquals(60, cal.add(0, 30));
 		assertEquals(400, cal.add(100, 300));
 		assertEquals(42, cal.add(21, 21));
 		assertEquals(40, cal.add(1, 39));
